@@ -1,0 +1,27 @@
+RVSC has some symbols including
+ + - < > [ ] = , . $ & ; #
+ 
+==========================================
+Each symbols has different means
+
+">" = +2
+"<" = -1
+"+" = +16
+"-" = -8
+"[" = Start Multiply
+"]" = End Multiply
+"=" = Print current value (Decimal) / Assign value
+"," = Print ASCII character without reseting value
+"." = Print ASCII character then reset value
+
+==========================================
+Example
+
+>>> = means 6
+(2 + 2 + 2)
+
+>< = means 1
+(2 + -1)
+
++++- = means 40
+(16 + 16 + 16 + -8)

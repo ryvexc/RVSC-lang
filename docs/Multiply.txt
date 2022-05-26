@@ -1,0 +1,58 @@
+Here we use "[" (dot) and "]" (comma)
+
+==========================================
+- "[" (Open bracket) explaination
+"[" used to start Multiply, Example
+
+[>++] = 64, cause its mean that
+
+    [   >   +   +   ]
+    ^   ^   ^   ^   ^
+  Start 2   16  16 end
+
+  why it can be 64, because
+    [   >
+        ^
+        used for Multiply times, and 
+
+    +   +   ]
+    ^   ^
+    -----> will be add up, then will be Multiplied by > (2)
+
+    [   >   +   +   ]
+        ^   ^   ^
+        2   16  16
+        (2 x (16 + 16)) = (2 x 32) = 64
+
+
+another example
+    [   >   +   +   +   -   ]
+        ^   ^   ^   ^   ^
+        2   16  16  16  -8
+        (2 x (16 + 16 + 16 + -8)) = (2 x 40) = 80
+
+==========================================
+- "[" (Open bracket) explaination
+"[" used to end Multiply, Example
+
+[>++]>< = 65
+
+    [   >   +   +   ]   >   <
+    ^   ^   ^   ^   ^   ^   ^
+    S   2   16  16  E   2   -1
+        (2 x (16 + 16)) + 2 + -1
+        (2 x 32) + 1
+        64 + 1 = 65
+    
+if you dont put "]", example
+
+[>++><
+
+    [   >   +   +   >   <   (it will add up until you put "]")
+        ^   ^   ^   ^   ^
+        2   16  16  2   -1
+        (2 x (16 + 16 + 2 + -1))
+        (2 x (32 + 1 ...until you put "]"))
+        (2 x (33 ...until you put "]")) = Warning!
+
+    

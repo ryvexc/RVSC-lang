@@ -1,0 +1,45 @@
+Here we use "." (dot) and "," (comma)
+
+==========================================
+- "." (dot) explaination
+"." dot is used to print the current value into the screen, its printed
+as ASCII character from current value, then the current value will be reseted
+
+++++ = means 64
+(16 + 16 = 16 + 16)
+
+- if you put "." after, the current value will be printed
+
+++++. = @ (the current value will be printed as ASCII character)
+(16 + 16 + 16 + 16) = 64
+
+++++><. = A
+(16 + 16 + 16 + 16 + 2 + -1) = 65
+
+==========================================
+- "," (comma) explaination
+dot is used to print the current value into the screen, its printed
+as ASCII character from current value, but the current value will not reseted
+
+++++ = means 64
+(16 + 16 + 16 + 16)
+
+- if you use ".", the current value will be reseted to 0, Example
+++++.><. = means 64 and 1
+++++.>>.>. = means 64, 4, and 2
+(16 + 16 + 16 + 16).(2 + 2).(2).
+         64            4     2
+
+- but if you use ",", the current value will not reseted into 0, Example
+++++,><. = means 64 and 65
+++++,>>,> = means 64, 68, and 70
+
+==========================================
+WARNING
+
+- if you forget to put "."/",", the current value will not printed
+++++ = UNPRINTED
+++++ = @
+
+++++>< = UNPRINTED
+++++><. = A

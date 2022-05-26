@@ -1,0 +1,42 @@
+Here we use "$" (dot), "," (comma), "=" (equals), and ";" (semicolor) 
+
+(ON WORKING, MIGHT HAD SOME BUGS)
+==========================================
+- "$" is used to assign variable name
+- ";" is used to assign variable name
+
+Example:
+
+$letter_A = [>++]><;    
+that's mean you have variable named letter_A with value = 65 (A);
+
+    $   letter_A    =   [>++]><     ;
+    ^      ^        ^      ^        ^
+    |      |        |      |        end variable assign
+    |      |        |      value
+    |      |        value assign
+    |      variable name  
+    variable assign indicator
+
+==========================================
+- "&" is used to call variable, example
+
+$letter_A = [>++]><;
+
+&letter_A (this will add variable value into current value)
+
+then you should call using "."/"," to print ASCII character
+
+    &   letter_A    .
+    ^      ^        ^
+    |      |        print.
+    |      variable name
+    variable call indicator
+
+
+INPUT:
+$letter_A = [>++]><;
+&letter_A.
+
+OUTPUT:
+A

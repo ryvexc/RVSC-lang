@@ -1,0 +1,10 @@
+$letter_A = [>++]><;
+$letter_B = [>++]>;
+$newline = [>>>]>;
+
+$a_copy = &letter_A>;
+
+&letter_A.&letter_A.&letter_B.&newline.
+
+
+&a_copy.&letter_B.
