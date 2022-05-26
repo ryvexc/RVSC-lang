@@ -340,13 +340,6 @@ using namespace std;
 int main(int argc, char* argv[]) {
 	argc == 1 ? INLINECOMPILER() : argc > 2 ? print("too many arguments") : FILECOMPILER(argv[1]);
 	// std::vector<std::string> vect;
-	// vect.push_back("hello");
-	// vect.push_back("ryve");
-	// vect.push_back("how");
-	// vect.push_back("are");
-	// vect.push_back("you");
-	// std::cout << getIndex(vect, "hhhhh") << std::endl;
-	// std::cout << getIndex(vect, "fuck") << std::endl;
 	// std::cout << getIndex(vect, "ryve") << std::endl;
 	// Variable::Status();
 }
